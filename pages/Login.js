@@ -1,5 +1,8 @@
 // React Native components
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
+
+// Components
+import Name from '../components/Name';
 
 // Styles
 import { loginStyles } from '../styles/loginStyles';
@@ -7,9 +10,7 @@ import { loginStyles } from '../styles/loginStyles';
 export default function Login() {
   return (
     <View style = {loginStyles.loginPageContainer}> 
-        <Text>
-            Login Pageeeee
-        </Text> 
+        <Name />
     </View>
   );
 }
