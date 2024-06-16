@@ -5,6 +5,7 @@ import { View } from 'react-native';
 import Name from '../components/Name';
 import Headline from '../components/Headline';
 import LoginForm from '../components/LoginForm';
+import OtherLoginOptions from '../components/OtherLoginOptions';
 
 // Styles
 import { loginStyles } from '../styles/loginStyles';
@@ -15,6 +16,7 @@ export default function Login() {
         <Name />
         <Headline />
         <LoginForm />
+        <OtherLoginOptions />
     </View>
   );
 }
