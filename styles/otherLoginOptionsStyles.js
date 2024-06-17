@@ -26,11 +26,25 @@ export const otherLoginOptionsStyles = StyleSheet.create({
         textAlign: 'center',
     },
     otherLoginOptionsIconsContainer: {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
         marginTop: 30,
         height: 50,
     },
+    otherLoginOptionsIconContainer: {
+        margin: 15,
+        backgroundColor: '#FFFFFF',
+        borderRadius: 150,
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 50,
+        width: 50,
+    },
     otherLoginOptionsIcon: {
-
+        height: 25,
+        width: 25,
     },
     registerContainer: {
         marginTop: 45,

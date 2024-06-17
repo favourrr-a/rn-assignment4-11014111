@@ -16,14 +16,14 @@ export default function OtherLoginOptions() {
                 <View style = {otherLoginOptionsStyles.orContinueWithLine}></View>
             </View>
             <View style = {otherLoginOptionsStyles.otherLoginOptionsIconsContainer}>
-                <View style = {otherLoginOptionsStyles.otherLoginOptionsIcon}>
-
+                <View style = {otherLoginOptionsStyles.otherLoginOptionsIconContainer}>
+                    <AppleIcon />
                 </View>
-                <View style = {otherLoginOptionsStyles.otherLoginOptionsIcon}>
-                    
+                <View style = {otherLoginOptionsStyles.otherLoginOptionsIconContainer}>
+                    <GoogleIcon />
                 </View>
-                <View style = {otherLoginOptionsStyles.otherLoginOptionsIcon}>
-                    
+                <View style = {otherLoginOptionsStyles.otherLoginOptionsIconContainer}>
+                    <FacebookIcon />
                 </View>
             </View>
             <View style = {otherLoginOptionsStyles.registerContainer}> 
