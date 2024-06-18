@@ -5,8 +5,7 @@ export const headlineStyles = StyleSheet.create({
     headlineContainer: {
         alignItems: 'left',
         justifyContent: 'center',
-        marginTop: 5,
-        marginBottom: 5,
+        flex: 0.5,
         width: '100%',
     },
     headline: {
@@ -17,8 +16,8 @@ export const headlineStyles = StyleSheet.create({
     headlineMessageContainer: {
         alignItems: 'left',
         justifyContent: 'center',
-        marginTop: 5,
-        marginBottom: 5,
+        marginTop: '2%',
+        marginBottom: '2%',
         width: '100%',
     },
     headlineMessage: {

@@ -8,6 +8,5 @@ export const loginStyles = StyleSheet.create({
         height: '90%',
         width: '90%',
         paddingTop: 50,
-        paddingBottom: 100,
     },
 });

@@ -5,7 +5,7 @@ export const nameStyles = StyleSheet.create({
     nameContainer: {
         alignItems: 'left',
         justifyContent: 'center',
-        marginBottom: 5,
+        flex: 0.2,
         width: '100%',
     },
     name: {

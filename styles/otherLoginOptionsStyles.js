@@ -5,9 +5,11 @@ export const otherLoginOptionsStyles = StyleSheet.create({
     otherLoginOptionsContainer:{
         display: 'flex',
         flexDirection: 'column',
+        flex: 1.5,
+        position: 'relative',
+        top: '3%',
     }, 
     orContinueWithContainer: {
-        marginTop: 40,
         display: 'flex',
         flexDirection: 'row',
         width: '100%',
@@ -30,24 +32,24 @@ export const otherLoginOptionsStyles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: 30,
-        height: 50,
+        marginTop: '10%',
+        height: '20%',
     },
     otherLoginOptionsIconContainer: {
-        margin: 15,
+        margin: '3%',
         backgroundColor: '#FFFFFF',
         borderRadius: 150,
         justifyContent: 'center',
         alignItems: 'center',
-        height: 50,
-        width: 50,
+        height: '100%',
+        width: '14%',
     },
     otherLoginOptionsIcon: {
         height: 25,
         width: 25,
     },
     registerContainer: {
-        marginTop: 45,
+        marginTop: '12%',
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center',
@@ -58,7 +60,7 @@ export const otherLoginOptionsStyles = StyleSheet.create({
         textAlign: 'center',
     },
     registerLink: {
-        marginLeft: 5,
+        marginLeft: '1%',
         color: 'purple',
     }
 })
