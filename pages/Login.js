@@ -9,14 +9,17 @@ import OtherLoginOptions from '../components/OtherLoginOptions';
 
 // Styles
 import { loginStyles } from '../styles/loginStyles';
+import { appStyles } from '../styles/appStyles';
 
-export default function Login() {
+export default function Login({navigation}) {
   return (
-    <View style = {loginStyles.loginPageContainer}> 
+    <View style = {appStyles.container}>
+      <View style = {loginStyles.loginPageContainer}> 
         <Name />
         <Headline />
-        <LoginForm />
+        <LoginForm navigation = {navigation} />
         <OtherLoginOptions />
+      </View>
     </View>
   );
 }

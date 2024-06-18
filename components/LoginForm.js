@@ -5,7 +5,7 @@ import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
 // Styles
 import { loginFormStyles } from '../styles/loginFormStyles';
 
-export default function LoginForm() {
+export default function LoginForm({navigation}) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
 
@@ -19,7 +19,7 @@ export default function LoginForm() {
             return;
         }
         else{
-            Alert.alert('Login successful');
+            navigation.navigate('Home');
         }
     }
 
