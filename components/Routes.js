@@ -11,20 +11,13 @@ export default function Routes() {
       <Stack.Navigator screenOptions = {{ headerShown: false }}>
         <Stack.Screen
           name = "Login"
-          component = { LoginScreen }
+          component = { Login }
         />
         <Stack.Screen
           name = "Home"
-          component = { HomeScreen }
+          component = { Home }
         />      
         </Stack.Navigator>
     </NavigationContainer>
   );
-};
-
-const LoginScreen = ({navigation}) => {
-    return <Login navigation = {navigation} />;
-};
-  const HomeScreen = ({navigation}) => {
-    return <Home navigation = {navigation} />;
 };

@@ -19,7 +19,7 @@ export default function LoginForm({navigation}) {
             return;
         }
         else{
-            navigation.navigate('Home');
+            navigation.navigate('Home', {name: name, email: email});
         }
     }
 
