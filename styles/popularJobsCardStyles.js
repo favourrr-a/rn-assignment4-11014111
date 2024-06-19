@@ -42,7 +42,7 @@ export const popularJobsCardStyles = StyleSheet.create({
     companyName: {
         fontSize: 16,
         fontWeight: '110',
-        color: 'black',
+        color: '#797985',
     },
     jobSalaryJobLocation: {
         flex: 0.3,
@@ -56,7 +56,7 @@ export const popularJobsCardStyles = StyleSheet.create({
         alignSelf: 'flex-end',
     },
     jobLocation: {
-        color: 'black',
+        color: '#797985',
         fontSize: 12,
         alignSelf: 'flex-end',
     }

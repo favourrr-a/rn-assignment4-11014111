@@ -7,7 +7,7 @@ export const featuredJobsCardStyles = StyleSheet.create({
         height: 220,
         borderRadius: 30,
         marginRight: 15,
-        padding: 20,
+        padding: 25,
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
@@ -34,16 +34,18 @@ export const featuredJobsCardStyles = StyleSheet.create({
         display: 'flex', 
         flexDirection: 'column',
         paddingLeft: 15,
+        top: 7,
     },
     jobTitle: {
-        fontSize: 18,
+        fontSize: 24,
         fontWeight: '500',
         color: '#FFFFFF',
     },
     companyName: {
-        fontSize: 16,
+        fontSize: 20,
         fontWeight: '110',
-        color: '#FFFFFF',
+        color: '#D4E1F8',
+        marginTop: 5
     },
     jobSalaryJobLocation: {
         flex: 0.3,
@@ -53,10 +55,12 @@ export const featuredJobsCardStyles = StyleSheet.create({
     },
     jobSalary: {
         color: '#FFFFFF',
-        fontSize: 16,
+        fontSize: 18,
+        fontWeight: 'bold'
     },
     jobLocation: {
         color: '#FFFFFF',
-        fontSize: 16,
+        fontSize: 18,
+        fontWeight: 'bold'
     }
 });
