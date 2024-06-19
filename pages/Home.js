@@ -8,6 +8,7 @@ import { homeStyles } from '../styles/homeStyles';
 // Components
 import UserProfile from '../components/UserProfile';
 import Search from '../components/Search';
+import FeaturedJobs from '../components/FeaturedJobs';
 
 export default function Home({route}) {
     const {name, email} = route.params;
@@ -17,6 +18,7 @@ export default function Home({route}) {
         <View style = {homeStyles.homePageContainer}>
             <UserProfile name = {name} email = {email} />
             <Search />
+            <FeaturedJobs />
         </View>
         </View>
     );
