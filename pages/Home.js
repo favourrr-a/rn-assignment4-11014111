@@ -9,6 +9,7 @@ import { homeStyles } from '../styles/homeStyles';
 import UserProfile from '../components/UserProfile';
 import Search from '../components/Search';
 import FeaturedJobs from '../components/FeaturedJobs';
+import PopularJobs from '../components/PopularJobs';
 
 export default function Home({route}) {
     const {name, email} = route.params;
@@ -19,6 +20,7 @@ export default function Home({route}) {
                 <UserProfile name = {name} email = {email} />
                 <Search />
                 <FeaturedJobs />
+                <PopularJobs />
             </ScrollView>
         </View>
     );
