@@ -21,12 +21,12 @@ The app is a job search app. It was created using the UI mockup found at [this l
 - [`README.md`](./README.md): This README file, providing an overview and documentation for the project
 
 ### Components Structure And Usage
-- Login
+- #### Login
     - AppName: Made up of the app name, 'Jobizz'
     - Headline: Welcome message
     - LoginForm: Form where the user enters their name and email. Name and email are passed as props to the home page
     - OtherLoginOptions: Other ways of logging in 
-- Home
+- #### Home
     - UserProfile: Name and email passed from the login form, as well as a profile icon
     - Search: Search bar and filter option
     - FeaturedJobs
@@ -35,7 +35,7 @@ The app is a job search app. It was created using the UI mockup found at [this l
     - PopularJobs
         - PopularJobsList: List of popular jobs (hardcoded)
             - Each popular job is rendered using the PopularJobsCard component
-- App 
+- #### App 
     - Routes: Contains navigation process from login to home page
 
 ### App features
