@@ -3,11 +3,11 @@ import { StyleSheet } from 'react-native';
 
 export const featuredJobsCardStyles = StyleSheet.create({
     featuredJobsCardContainer: {
-        width: 320,
-        height: 220,
+        width: 300,
+        height: 200,
         borderRadius: 30,
         marginRight: 15,
-        padding: 25,
+        padding: 20,
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
