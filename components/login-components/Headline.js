@@ -2,7 +2,7 @@
 import { Text, View } from 'react-native';
 
 // Styles
-import { headlineStyles } from '../styles/headlineStyles';
+import { headlineStyles } from '../../styles/login-styles/headlineStyles';
 
 export default function Headline() {
     return(

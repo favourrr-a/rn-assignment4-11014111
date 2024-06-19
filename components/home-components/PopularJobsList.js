@@ -5,19 +5,19 @@ import { View } from 'react-native';
 import PopularJobsCard from './PopularJobsCard';
 
 //  Assets
-import appleLogo from '../assets/company-logos/apple.jpeg';
-import beatsLogo from '../assets/company-logos/beats.png';
-import burgerKingLogo from '../assets/company-logos/burger-king.png';
-import EALogo from '../assets/company-logos/EA.png';
-import facebookLogo from '../assets/company-logos/facebook.png';
-import googleLogo from '../assets/company-logos/google.png';
-import linuxLogo from '../assets/company-logos/linux.png';
-import oracleLogo from '../assets/company-logos/oracle.jpeg';
-import rockstarGamesLogo from '../assets/company-logos/rockstar-games.png';
-import twitterLogo from '../assets/company-logos/twitter.png';
+import appleLogo from '../../assets/company-logos/apple.jpeg';
+import beatsLogo from '../../assets/company-logos/beats.png';
+import burgerKingLogo from '../../assets/company-logos/burger-king.png';
+import EALogo from '../../assets/company-logos/EA.png';
+import facebookLogo from '../../assets/company-logos/facebook.png';
+import googleLogo from '../../assets/company-logos/google.png';
+import linuxLogo from '../../assets/company-logos/linux.png';
+import oracleLogo from '../../assets/company-logos/oracle.jpeg';
+import rockstarGamesLogo from '../../assets/company-logos/rockstar-games.png';
+import twitterLogo from '../../assets/company-logos/twitter.png';
 
 // Styles
-import { popularJobsListStyles } from '../styles/popularJobsListStyles';
+import { popularJobsListStyles } from '../../styles/home-styles/popularJobsListStyles';
 
 export default function PopularJobsList() {
     const popularJobs = [

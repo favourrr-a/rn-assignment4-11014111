@@ -5,7 +5,7 @@ import { View, Text } from 'react-native';
 import FeaturedJobsList from './FeaturedJobsList';
 
 // Styles
-import { featuredJobsStyles } from '../styles/featuredJobsStyles';
+import { featuredJobsStyles } from '../../styles/home-styles/featuredJobsStyles';
 
 export default function FeaturedJobs() {
     return(

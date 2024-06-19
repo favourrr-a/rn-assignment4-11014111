@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
 
 // Styles
-import { otherLoginOptionsStyles } from '../styles/otherLoginOptionsStyles';
+import { otherLoginOptionsStyles } from '../../styles/login-styles/otherLoginOptionsStyles';
 
 export default function OtherLoginOptions() {
     return(

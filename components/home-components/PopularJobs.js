@@ -5,7 +5,7 @@ import { View, Text, Image } from 'react-native';
 import PopularJobsList from './PopularJobsList';
 
 // Styles
-import { popularJobsStyles } from '../styles/popularJobsStyles';
+import { popularJobsStyles } from '../../styles/home-styles/popularJobsStyles';
 
 export default function PopularJobs() {
     return(

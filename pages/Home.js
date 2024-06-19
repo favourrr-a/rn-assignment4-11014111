@@ -3,13 +3,13 @@ import { View, ScrollView } from 'react-native';
 
 // Styles
 import { appStyles } from '../styles/appStyles';
-import { homeStyles } from '../styles/homeStyles';
+import { homeStyles } from '../styles/home-styles/homeStyles';
 
 // Components
-import UserProfile from '../components/UserProfile';
-import Search from '../components/Search';
-import FeaturedJobs from '../components/FeaturedJobs';
-import PopularJobs from '../components/PopularJobs';
+import UserProfile from '../components/home-components/UserProfile';
+import Search from '../components/home-components/Search';
+import FeaturedJobs from '../components/home-components/FeaturedJobs';
+import PopularJobs from '../components/home-components/PopularJobs';
 
 export default function Home({route}) {
     const {name, email} = route.params;

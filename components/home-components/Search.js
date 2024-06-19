@@ -2,11 +2,11 @@
 import { View, Image, TextInput } from 'react-native';
 
 // Styles
-import { searchStyles } from '../styles/searchStyles.js';
+import { searchStyles } from '../../styles/home-styles/searchStyles.js';
 
 // Assets
-import searchIcon from '../assets/search-icon.png';
-import filterIcon from '../assets/filter-icon.png';
+import searchIcon from '../../assets/search-icon.png';
+import filterIcon from '../../assets/filter-icon.png';
 
 export default function SearchBar() {
     return(

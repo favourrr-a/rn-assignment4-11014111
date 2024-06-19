@@ -2,10 +2,10 @@
 import { View, Image, Text} from 'react-native';
 
 // Styles
-import { userProfileStyles } from '../styles/userProfileStyles';
+import { userProfileStyles } from '../../styles/home-styles/userProfileStyles';
 
 // Assets
-import profileImage from '../assets/profile-image.png';
+import profileImage from '../../assets/profile-image.png';
 
 export default function UserProfile({name, email}) {
     return(

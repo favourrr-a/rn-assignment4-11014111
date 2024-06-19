@@ -2,7 +2,7 @@
 import { Text, View } from 'react-native';
 
 // Styles
-import { nameStyles } from '../styles/nameStyles';
+import { nameStyles } from '../../styles/login-styles/nameStyles';
 
 export default function Name() {
     return(

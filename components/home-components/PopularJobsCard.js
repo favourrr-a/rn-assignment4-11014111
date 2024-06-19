@@ -2,7 +2,7 @@
 import {View, Text, Image} from 'react-native';
 
 // Styles
-import { popularJobsCardStyles } from '../styles/popularJobsCardStyles';
+import { popularJobsCardStyles } from '../../styles/home-styles/popularJobsCardStyles';
 
 export default function PopularJobsCard({jobTitle, company, companyLogo, salary, location}) {
     const formattedSalary = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(salary);
