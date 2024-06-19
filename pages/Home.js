@@ -7,6 +7,7 @@ import { homeStyles } from '../styles/homeStyles';
 
 // Components
 import UserProfile from '../components/UserProfile';
+import Search from '../components/Search';
 
 export default function Home({route}) {
     const {name, email} = route.params;
@@ -15,6 +16,7 @@ export default function Home({route}) {
         <View style = {appStyles.container}>
         <View style = {homeStyles.homePageContainer}>
             <UserProfile name = {name} email = {email} />
+            <Search />
         </View>
         </View>
     );
