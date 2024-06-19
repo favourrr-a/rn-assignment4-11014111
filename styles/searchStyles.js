@@ -9,6 +9,7 @@ export const searchStyles = StyleSheet.create({
         width: '100%',
         height: '9%',
         marginTop: 30,
+        flex: 1,
     },
     searchBar: {
         width: '100%',

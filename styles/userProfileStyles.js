@@ -8,6 +8,7 @@ export const userProfileStyles = StyleSheet.create({
         position: "relative",
         height: '12%',
         marginTop: 30,
+        flex: 1,
     },
     nameAndEmail: {
         display: "flex",
