@@ -21,16 +21,16 @@ import { popularJobsListStyles } from '../styles/popularJobsListStyles';
 
 export default function PopularJobsList() {
     const popularJobs = [
-        { id: 1, jobTitle: 'Mechanical Engineer', company: 'Apple', companyLogo: appleLogo, salary: 400000, location: 'Accra, Ghana'},
-        { id: 2, jobTitle: 'Product Manager', company: 'Beats', companyLogo: beatsLogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 3, jobTitle: 'Jr Executive', company: 'Burger King', companyLogo: burgerKingLogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 4, jobTitle: 'Video Game Developer', company: 'EA', companyLogo: EALogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 5, jobTitle: 'Software Engineer', company: 'Facebook', companyLogo: facebookLogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 6, jobTitle: 'Cloud Engineer', company: 'Google', companyLogo: googleLogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 7, jobTitle: 'Systems Administrator', company: 'Linux', companyLogo: linuxLogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 8, jobTitle: 'Systems Administrator', company: 'Oracle', companyLogo: oracleLogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 9, jobTitle: 'Video Game Developer', company: 'Rockstar Games', companyLogo: rockstarGamesLogo, salary: 200000, location: 'Accra, Ghana'},
-        { id: 10, jobTitle: 'Software Developer', company: 'Twitter', companyLogo: twitterLogo, salary: 200000, location: 'Accra, Ghana'},
+        { id: 1, jobTitle: 'Product Manager', company: 'Beats', companyLogo: beatsLogo, salary: 250000, location: 'Accra, Ghana'},
+        { id: 2, jobTitle: 'Jr Executive', company: 'Burger King', companyLogo: burgerKingLogo, salary: 270000, location: 'Cairo, Egypt'},
+        { id: 3, jobTitle: 'Video Game Developer', company: 'EA', companyLogo: EALogo, salary: 300000, location: 'California, USA'},
+        { id: 4, jobTitle: 'Mechanical Engineer', company: 'Apple', companyLogo: appleLogo, salary: 990000, location: 'Florida, USA'},
+        { id: 5, jobTitle: 'Software Engineer', company: 'Facebook', companyLogo: facebookLogo, salary: 148000, location: 'London, UK'},
+        { id: 6, jobTitle: 'Cloud Engineer', company: 'Google', companyLogo: googleLogo, salary: 157000, location: 'California, USA'},
+        { id: 7, jobTitle: 'Systems Administrator', company: 'Linux', companyLogo: linuxLogo, salary: 890000, location: 'California, USA'},
+        { id: 8, jobTitle: 'Systems Administrator', company: 'Oracle', companyLogo: oracleLogo, salary: 889000, location: 'Texas, USA'},
+        { id: 9, jobTitle: 'Video Game Developer', company: 'Rockstar Games', companyLogo: rockstarGamesLogo, salary:700000, location: 'New York, USA'},
+        { id: 10, jobTitle: 'Software Developer', company: 'Twitter', companyLogo: twitterLogo, salary: 600000, location: 'California, USA'},
     ];
     return(
         <View data = {popularJobs} style = {popularJobsListStyles.popularJobsListContainer}>
