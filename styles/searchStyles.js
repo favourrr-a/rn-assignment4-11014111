@@ -7,7 +7,7 @@ export const searchStyles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         width: '100%',
-        height: '9%',
+        height: 50,
         marginTop: 30,
         flex: 1,
     },
