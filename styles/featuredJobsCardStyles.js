@@ -33,7 +33,7 @@ export const featuredJobsCardStyles = StyleSheet.create({
     jobTitleCompanyName: {
         display: 'flex', 
         flexDirection: 'column',
-        paddingLeft: 15,
+        paddingLeft: 7,
         top: 7,
     },
     jobTitle: {
