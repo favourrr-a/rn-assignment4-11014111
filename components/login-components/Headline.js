@@ -8,7 +8,7 @@ export default function Headline() {
     return(
         <View style = {headlineStyles.headlineContainer}>
             <Text style = {headlineStyles.headline}>
-                Welcome Back
+                Welcome Back 👋
             </Text>
             <HeadlineMessage />
         </View>
