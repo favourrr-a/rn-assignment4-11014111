@@ -4,7 +4,7 @@ import { Text, View } from 'react-native';
 // Styles
 import { nameStyles } from '../../styles/login-styles/nameStyles';
 
-export default function Name() {
+export default function AppName() {
     return(
         <View style = {nameStyles.nameContainer}>
             <Text style = {nameStyles.name}>

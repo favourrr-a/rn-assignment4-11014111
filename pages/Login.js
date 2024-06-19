@@ -2,7 +2,7 @@
 import { View } from 'react-native';
 
 // Components
-import Name from '../components/login-components/Name';
+import AppName from '../components/login-components/AppName';
 import Headline from '../components/login-components/Headline';
 import LoginForm from '../components/login-components/LoginForm';
 import OtherLoginOptions from '../components/login-components/OtherLoginOptions';
@@ -15,7 +15,7 @@ export default function Login({navigation}) {
   return (
     <View style = {appStyles.container}>
       <View style = {loginStyles.loginPageContainer}> 
-        <Name />
+        <AppName />
         <Headline />
         <LoginForm navigation = {navigation} />
         <OtherLoginOptions />
