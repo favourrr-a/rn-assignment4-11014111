@@ -1,5 +1,5 @@
 // React Native components
-import { View, Text } from 'react-native';
+import { View, ScrollView } from 'react-native';
 
 // Styles
 import { appStyles } from '../styles/appStyles';
@@ -15,11 +15,11 @@ export default function Home({route}) {
     console.log(route);
     return (
         <View style = {appStyles.container}>
-        <View style = {homeStyles.homePageContainer}>
-            <UserProfile name = {name} email = {email} />
-            <Search />
-            <FeaturedJobs />
-        </View>
+            <ScrollView vertical showsVerticalScrollIndicator = {false} style = {homeStyles.homePageContainer}>
+                <UserProfile name = {name} email = {email} />
+                <Search />
+                <FeaturedJobs />
+            </ScrollView>
         </View>
     );
 }
