@@ -5,6 +5,7 @@ import {View, Text, Image} from 'react-native';
 import { featuredJobsCardStyles } from '../styles/featuredJobsCardStyles';
 
 export default function FeaturedJobsCard({jobTitle, company, companyLogo, salary, location, backgroundColor}) {
+    const formattedSalary = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(salary);
     return(
         <View style = {[featuredJobsCardStyles.featuredJobsCardContainer, {backgroundColor}]}>
             <View style = {featuredJobsCardStyles.companyLogoJobTitleCompanyName}>
@@ -22,7 +23,7 @@ export default function FeaturedJobsCard({jobTitle, company, companyLogo, salary
             </View>
             <View style = {featuredJobsCardStyles.jobSalaryJobLocation}>
                 <Text style = {featuredJobsCardStyles.jobSalary}>
-                    {salary}
+                    {formattedSalary}
                 </Text>
                 <Text style = {featuredJobsCardStyles.jobLocation}>
                     {location}

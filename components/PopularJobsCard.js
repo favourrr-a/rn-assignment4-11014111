@@ -5,6 +5,7 @@ import {View, Text, Image} from 'react-native';
 import { popularJobsCardStyles } from '../styles/popularJobsCardStyles';
 
 export default function PopularJobsCard({jobTitle, company, companyLogo, salary, location}) {
+    const formattedSalary = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(salary);
     return(
         <View style = {popularJobsCardStyles.popularJobsCardContainer}>
             <View style = {popularJobsCardStyles.companyLogoJobTitleCompanyName}>
@@ -22,7 +23,7 @@ export default function PopularJobsCard({jobTitle, company, companyLogo, salary,
             </View>
             <View style = {popularJobsCardStyles.jobSalaryJobLocation}>
                 <Text style = {popularJobsCardStyles.jobSalary}>
-                    {salary}
+                    {formattedSalary}/y
                 </Text>
                 <Text style = {popularJobsCardStyles.jobLocation}>
                     {location}
